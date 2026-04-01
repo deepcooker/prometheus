@@ -1,0 +1,49 @@
+# ==============================================
+# 通用 Git 忽略文件（仅屏蔽系统/环境/缓存）
+# 不屏蔽任何业务代码、项目文件、脚本、md 文档
+# ==============================================
+
+# Python 编译缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+
+# 虚拟环境
+.venv/
+venv/
+.env/
+env/
+ENV/
+.env
+.env.*
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# 操作系统垃圾
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Thumbs.db:encryptable
+
+# 日志与临时文件
+logs/
+log/
+temp/
+tmp/
+*.log
+*.tmp
+*.bak
